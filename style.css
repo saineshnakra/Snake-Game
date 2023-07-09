@@ -1,0 +1,129 @@
+body {
+    background: black;
+}
+
+.pageHeader {
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 22px;
+    color: aliceblue;
+
+
+}
+
+.scoreDisplay {
+    text-align: center;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-game-button {
+    text-shadow: 1px 1px pink, -1px -1px maroon;
+
+    line-height: 1.5em;
+    text-align: center;
+    display: inline-block;
+    width: 1.5em;
+    -webkit-border-radius: .75em;
+    -moz-border-radius: .75em;
+    -o-border-radius: .75em;
+    border-radius: .75em;
+    background-color: red;
+    -webkit-box-shadow: 0 .2em maroon;
+    -moz-box-shadow: 0 .2em maroon;
+    -o-box-shadow: 0 .2em maroon;
+    box-shadow: 0 .2em maroon;
+    color: red;
+    margin: 5px;
+    background-color: red;
+    background-image: -o-linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+    background-image: -moz-linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+    background-image: -webkit-linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+    background-image: linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.start-btn {
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0 .2em gray;
+    cursor: pointer;
+
+}
+
+.video-game-button:active,
+.start-btn:active {
+    box-shadow: none;
+    position: relative;
+    top: .2em;
+}
+
+.button button {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-color: none;
+
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    /*border:1px black solid;
+box-sizing:border-box*/
+}
+
+.snake {
+    background: black;
+    border-radius: 50%;
+}
+
+.apple {
+    background-color: #fff;
+    box-shadow:
+        0 0 60px 30px #fff,
+        /* inner white */
+        0 0 100px 60px #f0f,
+        /* middle magenta */
+        0 0 140px 90px #0ff;
+    /* outer cyan */
+    border-radius: 20px;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup button {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
